@@ -1,13 +1,14 @@
 
 # Water Quality Analysis Project
 
-This project aims to assess the safety of drinking water using a real-world environmental dataset from the California Department of Water Resources. It applies data science techniques and machine learning to classify water samples as safe or unsafe based on environmental safety standards.
+This project aims to assess the safety of drinking water using a real-world environmental dataset from the California Department of Water Resources. This project analyzes surface and ground water to evaluate 16 parameters (e.g., pH, lead, arsenic, nitrate) against EPA and WHO thresholds. It applies data science techniques and machine learning to classify water samples as safe or unsafe based on environmental safety standards.
 
-## 🔍 Objective
+## Objective
 
 - Analyze water sample data for contamination.
 - Label samples as Safe or Unsafe using EPA and WHO thresholds.
 - Predict unsafe sources using machine learning.
+- 99% accuracy using Random Forest to classify unsafe water samples.
 - Identify feature importance.
 - Visualize geographic patterns of contamination.
 
@@ -20,9 +21,8 @@ This project aims to assess the safety of drinking water using a real-world envi
 ## 🛠️ Tools Used
 
 - Python (pandas, scikit-learn, matplotlib, seaborn, folium)
-- SQL
 - Streamlit (planned)
-- Jupyter Notebook
+- Google colab
 
 ## 📊 Features
 
@@ -39,10 +39,11 @@ This project aims to assess the safety of drinking water using a real-world envi
 - Deploy an interactive Streamlit web app
 - Integrate water quality APIs
 - Perform time-series trend analysis
+- Designed with future integration of GIS layers (rivers, counties)
 
 ## 📂 Repository Structure
 
-- `notebooks/` – Jupyter notebooks
+- `notebooks/` – colab notebooks
 - `data/` – Dataset (or external link)
 - `visualizations/` – Maps and charts
 - `README.md` – Documentation
@@ -51,7 +52,3 @@ This project aims to assess the safety of drinking water using a real-world envi
 
 **Francisca Iloh**  
 _Data Scientist | Python | Streamlit | SQL_
-
----
-
-This project is part of my application for the 2025 Graduate Internship Program at Sand Technologies.
